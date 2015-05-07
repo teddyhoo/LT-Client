@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE97C7E1AFBF37800808CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE97C7D1AFBF37800808CAE /* main.m */; };
+		ADE97C811AFBF37800808CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE97C801AFBF37800808CAE /* AppDelegate.m */; };
+		ADE97C841AFBF37800808CAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE97C831AFBF37800808CAE /* ViewController.m */; };
+		ADE97C871AFBF37900808CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE97C851AFBF37900808CAE /* Main.storyboard */; };
+		ADE97C891AFBF37900808CAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE97C881AFBF37900808CAE /* Images.xcassets */; };
+		ADE97C8C1AFBF37900808CAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE97C8A1AFBF37900808CAE /* LaunchScreen.xib */; };
+		ADE97C981AFBF37900808CAE /* LeashTimeClientPetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE97C971AFBF37900808CAE /* LeashTimeClientPetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE97C921AFBF37900808CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE97C701AFBF37800808CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE97C771AFBF37800808CAE;
+			remoteInfo = LeashTimeClientPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADE97C781AFBF37800808CAE /* LeashTimeClientPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeashTimeClientPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97C7C1AFBF37800808CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE97C7D1AFBF37800808CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADE97C7F1AFBF37800808CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADE97C801AFBF37800808CAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADE97C821AFBF37800808CAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADE97C831AFBF37800808CAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADE97C861AFBF37900808CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADE97C881AFBF37900808CAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADE97C8B1AFBF37900808CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADE97C911AFBF37900808CAE /* LeashTimeClientPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeashTimeClientPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97C961AFBF37900808CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE97C971AFBF37900808CAE /* LeashTimeClientPetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeashTimeClientPetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE97C751AFBF37800808CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97C8E1AFBF37900808CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE97C6F1AFBF37800808CAE = {
+			isa = PBXGroup;
+			children = (
+				ADE97C7A1AFBF37800808CAE /* LeashTimeClientPet */,
+				ADE97C941AFBF37900808CAE /* LeashTimeClientPetTests */,
+				ADE97C791AFBF37800808CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE97C791AFBF37800808CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97C781AFBF37800808CAE /* LeashTimeClientPet.app */,
+				ADE97C911AFBF37900808CAE /* LeashTimeClientPetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE97C7A1AFBF37800808CAE /* LeashTimeClientPet */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97C7F1AFBF37800808CAE /* AppDelegate.h */,
+				ADE97C801AFBF37800808CAE /* AppDelegate.m */,
+				ADE97C821AFBF37800808CAE /* ViewController.h */,
+				ADE97C831AFBF37800808CAE /* ViewController.m */,
+				ADE97C851AFBF37900808CAE /* Main.storyboard */,
+				ADE97C881AFBF37900808CAE /* Images.xcassets */,
+				ADE97C8A1AFBF37900808CAE /* LaunchScreen.xib */,
+				ADE97C7B1AFBF37800808CAE /* Supporting Files */,
+			);
+			path = LeashTimeClientPet;
+			sourceTree = "<group>";
+		};
+		ADE97C7B1AFBF37800808CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97C7C1AFBF37800808CAE /* Info.plist */,
+				ADE97C7D1AFBF37800808CAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE97C941AFBF37900808CAE /* LeashTimeClientPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97C971AFBF37900808CAE /* LeashTimeClientPetTests.m */,
+				ADE97C951AFBF37900808CAE /* Supporting Files */,
+			);
+			path = LeashTimeClientPetTests;
+			sourceTree = "<group>";
+		};
+		ADE97C951AFBF37900808CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97C961AFBF37900808CAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE97C771AFBF37800808CAE /* LeashTimeClientPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97C9B1AFBF37900808CAE /* Build configuration list for PBXNativeTarget "LeashTimeClientPet" */;
+			buildPhases = (
+				ADE97C741AFBF37800808CAE /* Sources */,
+				ADE97C751AFBF37800808CAE /* Frameworks */,
+				ADE97C761AFBF37800808CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeashTimeClientPet;
+			productName = LeashTimeClientPet;
+			productReference = ADE97C781AFBF37800808CAE /* LeashTimeClientPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE97C901AFBF37900808CAE /* LeashTimeClientPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97C9E1AFBF37900808CAE /* Build configuration list for PBXNativeTarget "LeashTimeClientPetTests" */;
+			buildPhases = (
+				ADE97C8D1AFBF37900808CAE /* Sources */,
+				ADE97C8E1AFBF37900808CAE /* Frameworks */,
+				ADE97C8F1AFBF37900808CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE97C931AFBF37900808CAE /* PBXTargetDependency */,
+			);
+			name = LeashTimeClientPetTests;
+			productName = LeashTimeClientPetTests;
+			productReference = ADE97C911AFBF37900808CAE /* LeashTimeClientPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE97C701AFBF37800808CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ted Hooban";
+				TargetAttributes = {
+					ADE97C771AFBF37800808CAE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					ADE97C901AFBF37900808CAE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = ADE97C771AFBF37800808CAE;
+					};
+				};
+			};
+			buildConfigurationList = ADE97C731AFBF37800808CAE /* Build configuration list for PBXProject "LeashTimeClientPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE97C6F1AFBF37800808CAE;
+			productRefGroup = ADE97C791AFBF37800808CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE97C771AFBF37800808CAE /* LeashTimeClientPet */,
+				ADE97C901AFBF37900808CAE /* LeashTimeClientPetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE97C761AFBF37800808CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97C871AFBF37900808CAE /* Main.storyboard in Resources */,
+				ADE97C8C1AFBF37900808CAE /* LaunchScreen.xib in Resources */,
+				ADE97C891AFBF37900808CAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97C8F1AFBF37900808CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE97C741AFBF37800808CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97C841AFBF37800808CAE /* ViewController.m in Sources */,
+				ADE97C811AFBF37800808CAE /* AppDelegate.m in Sources */,
+				ADE97C7E1AFBF37800808CAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97C8D1AFBF37900808CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97C981AFBF37900808CAE /* LeashTimeClientPetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE97C931AFBF37900808CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE97C771AFBF37800808CAE /* LeashTimeClientPet */;
+			targetProxy = ADE97C921AFBF37900808CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADE97C851AFBF37900808CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE97C861AFBF37900808CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADE97C8A1AFBF37900808CAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE97C8B1AFBF37900808CAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADE97C991AFBF37900808CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADE97C9A1AFBF37900808CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE97C9C1AFBF37900808CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeashTimeClientPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE97C9D1AFBF37900808CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeashTimeClientPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADE97C9F1AFBF37900808CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeashTimeClientPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeashTimeClientPet.app/LeashTimeClientPet";
+			};
+			name = Debug;
+		};
+		ADE97CA01AFBF37900808CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeashTimeClientPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeashTimeClientPet.app/LeashTimeClientPet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE97C731AFBF37800808CAE /* Build configuration list for PBXProject "LeashTimeClientPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97C991AFBF37900808CAE /* Debug */,
+				ADE97C9A1AFBF37900808CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE97C9B1AFBF37900808CAE /* Build configuration list for PBXNativeTarget "LeashTimeClientPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97C9C1AFBF37900808CAE /* Debug */,
+				ADE97C9D1AFBF37900808CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADE97C9E1AFBF37900808CAE /* Build configuration list for PBXNativeTarget "LeashTimeClientPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97C9F1AFBF37900808CAE /* Debug */,
+				ADE97CA01AFBF37900808CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE97C701AFBF37800808CAE /* Project object */;
+}
