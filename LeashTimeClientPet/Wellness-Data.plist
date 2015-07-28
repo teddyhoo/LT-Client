@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Type</key>
+		<string>Administer pill monthly, REQUIRES Rx and annual test</string>
+		<key>Name</key>
+		<string>Heartgard Brand</string>
+		<key>Description</key>
+		<string>Heartworms are insidious and can be fatal. </string>
+		<key>Frequency</key>
+		<string>Month</string>
+		<key>Last</key>
+		<string>Last Treatment: Mar 1, 2015</string>
+		<key>Next</key>
+		<string>Next Treatment: Apr 1, 2015 [Scheduled]</string>
+		<key>ScheduleStatus</key>
+		<string>YES</string>
+		<key>IconFor</key>
+		<string>heartgard</string>
+		<key>MedBrand</key>
+		<string>Heartgard</string>
+		<key>IconForMedBrand</key>
+		<string>none</string>
+		<key>MedCharge</key>
+		<string>$8.47</string>
+		<key>methodFor</key>
+		<string>pill</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Wellness</string>
+		<key>Name</key>
+		<string>Flea &amp; Tick</string>
+		<key>Description</key>
+		<string>Eradicate fleas and ticks.</string>
+		<key>Frequency</key>
+		<string>Month</string>
+		<key>Last</key>
+		<string>Mar 1, 2015</string>
+		<key>Next</key>
+		<string>Apr 1, 2015</string>
+		<key>ScheduleStatus</key>
+		<string>YES</string>
+		<key>IconFor</key>
+		<string>two-pills</string>
+		<key>MedBrand</key>
+		<string>K-9 Advantix</string>
+		<key>IconForMedBrand</key>
+		<string>none</string>
+		<key>MedCharge</key>
+		<string>$7.75</string>
+		<key>methodFor</key>
+		<string>topical</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Wellness</string>
+		<key>Name</key>
+		<string>Heartworm</string>
+		<key>Description</key>
+		<string>Must make sure that Heartworm Lab test done before. Must be prescribed. </string>
+		<key>Frequency</key>
+		<string>Month</string>
+		<key>Last</key>
+		<string>Mar 1, 2015</string>
+		<key>Next</key>
+		<string>Apr 1, 2015</string>
+		<key>ScheduleStatus</key>
+		<string>YES</string>
+		<key>IconFor</key>
+		<string>two-pills</string>
+		<key>MedBrand</key>
+		<string>Heartgard</string>
+		<key>IconForMedBrand</key>
+		<string>none</string>
+		<key>MedCharge</key>
+		<string>$8.47</string>
+		<key>methodFor</key>
+		<string>pill</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Wellness</string>
+		<key>Name</key>
+		<string>Heartworm Test</string>
+		<key>Description</key>
+		<string>Do not take Heartworm preventive if this test has not been conducted. </string>
+		<key>Frequency</key>
+		<string>Annual</string>
+		<key>Last</key>
+		<string>Mar 1, 2015</string>
+		<key>Next</key>
+		<string>Mar 1, 2016</string>
+		<key>ScheduleStatus</key>
+		<string>YES</string>
+		<key>IconFor</key>
+		<string>heartgard</string>
+		<key>MedBrand</key>
+		<string>Heartgard</string>
+		<key>IconForMedBrand</key>
+		<string>none</string>
+		<key>MedCharge</key>
+		<string>$8.47</string>
+		<key>methodFor</key>
+		<string>hypodermic</string>
+	</dict>
+</array>
+</plist>

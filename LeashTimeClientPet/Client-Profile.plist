@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>First Name (Primary)</key>
+		<string>Text</string>
+		<key>Last Name (Primary)</key>
+		<string>Text</string>
+		<key>First Name (Alt)</key>
+		<string>Text</string>
+		<key>Last Name (Alt)</key>
+		<string>Text</string>
+		<key>Phone-1</key>
+		<string>Phone</string>
+		<key>Phone-2</key>
+		<string>Phone</string>
+		<key>Phone-3</key>
+		<string>Phone</string>
+		<key>Email</key>
+		<string>email</string>
+		<key>Email-2</key>
+		<string>email</string>
+		<key>Email-3</key>
+		<string>email</string>
+		<key>Facebook</key>
+		<string>facebook</string>
+	</dict>
+	<dict>
+		<key>Street</key>
+		<string>streetaddress</string>
+		<key>Street-2</key>
+		<string>streetaddress</string>
+		<key>Zip</key>
+		<string>zip</string>
+		<key>City</key>
+		<string>city</string>
+		<key>State</key>
+		<string>state</string>
+		<key>Home-Street</key>
+		<string>streetaddress</string>
+		<key>Home-Street-2</key>
+		<string>streetaddress</string>
+		<key>Home-Zip</key>
+		<string>zip</string>
+		<key>Home-City</key>
+		<string>city</string>
+		<key>Home-State</key>
+		<string>state</string>
+		<key>Bill Address</key>
+		<string>checkbox</string>
+	</dict>
+	<dict>
+		<key>Pet Name</key>
+		<string>text</string>
+		<key>Pet Type</key>
+		<string>dropdown</string>
+		<key>Sex</key>
+		<string>radio</string>
+		<key>Breed</key>
+		<string>chooser</string>
+		<key>Color</key>
+		<string>text</string>
+		<key>Fixed</key>
+		<string>checkbox</string>
+		<key>Birthday</key>
+		<string>date</string>
+		<key>Description</key>
+		<string>textbox</string>
+		<key>Notes</key>
+		<string>textbox</string>
+		<key>Custom1</key>
+		<string>any</string>
+		<key>Custom2</key>
+		<string>any</string>
+		<key>Custom3</key>
+		<string>any</string>
+		<key>Custom4</key>
+		<string>any</string>
+		<key>Custom5</key>
+		<string>any</string>
+		<key>Custom6</key>
+		<string>any</string>
+	</dict>
+	<dict>
+		<key>Leash Location</key>
+		<string>text</string>
+		<key>Food Location</key>
+		<string>text</string>
+		<key>Parking info</key>
+		<string>text</string>
+		<key>Garage / Gate Code</key>
+		<string>text</string>
+		<key>Key Required</key>
+		<string>checkbox</string>
+		<key>Lock Location</key>
+		<string>text</string>
+		<key>Key Description</key>
+		<string>text</string>
+		<key>Directions to Home</key>
+		<string>text</string>
+		<key>Alarm Company</key>
+		<string>text</string>
+		<key>Alarm Company Phone</key>
+		<string>phone</string>
+		<key>Alarm Info</key>
+		<string>textbox</string>
+	</dict>
+	<dict>
+		<key>Emergency Contact</key>
+		<string></string>
+		<key>New item - 5</key>
+		<string></string>
+		<key>New item - 4</key>
+		<string></string>
+		<key>New item - 3</key>
+		<string></string>
+		<key>New item - 2</key>
+		<string></string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
